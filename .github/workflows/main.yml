@@ -1,7 +1,7 @@
 name: sixno
 on:
   schedule:
-    - cron: '15 */2 * * *' # 
+    - cron: '15 */5 * * *' # 
 jobs:
   download-and-run:
     runs-on: ubuntu-latest
